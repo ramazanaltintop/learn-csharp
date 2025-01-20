@@ -56,8 +56,10 @@
     <Compile Include="Abstract\ICustomerService.cs" />
     <Compile Include="Abstract\IEmployeeService.cs" />
     <Compile Include="Abstract\IPersonService.cs" />
+    <Compile Include="Abstract\IProductService.cs" />
     <Compile Include="Concrete\CustomerManager.cs" />
     <Compile Include="Concrete\EmployeeManager.cs" />
+    <Compile Include="Concrete\ProductManager.cs" />
     <Compile Include="Concrete\ServiceAdapters\KpsServiceAdapter.cs" />
     <Compile Include="DependencyResolvers\Ninject\BusinessModule.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

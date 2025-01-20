@@ -43,8 +43,10 @@
   <ItemGroup>
     <Compile Include="Abstract\ICustomerDal.cs" />
     <Compile Include="Abstract\IEmployeeDal.cs" />
+    <Compile Include="Abstract\IProductDal.cs" />
     <Compile Include="Concrete\EntityFramework\EfCustomerDal.cs" />
     <Compile Include="Concrete\EntityFramework\EfEmployeeDal.cs" />
+    <Compile Include="Concrete\EntityFramework\EfProductDal.cs" />
     <Compile Include="Concrete\NHibernate\NhCustomerDal.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
